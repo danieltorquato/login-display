@@ -1,0 +1,80 @@
+h1{
+color: white;
+
+}
+body{
+    background-color: thistle;
+    text-align: center;
+}
+div.geral{
+    background-color: rgb(34, 36, 35);
+text-align: center;
+border-style: outset;
+border-color: rgba(26, 29, 26, 0.521);
+border-radius: 10px;
+position: relative;
+width: 400px;
+height: 300px;
+margin: auto;
+}
+div.elementos{
+    position: relative;
+    top: -310px;
+}
+input.itextpass{
+    text-align: center;
+    border: 0;
+    display: block;
+    border: 2px solid #3498db ;
+    background: none;
+    border-radius: 20px;
+    transform: translate (-50%, -50%);
+    margin: 20px auto;
+    width: 200px;
+    height: 35px;   
+    outline: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    transition: 0.25s;
+}
+input.button{
+    text-align: center;
+    border: 0;
+    display: block;
+    border: 2px solid #15c47b;
+    background: none;
+    border-radius: 20px;
+    
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    width: 100px;
+    height: 40px;
+    outline: none;
+position: relative;
+top: 40px;
+left: 47%;
+}
+input.itextpass:focus{
+    width: 300px;
+    border: 2px solid #15c47b;
+}
+input.button:hover{
+background-color: #15c47b;
+cursor: pointer;
+}
+img.mostrasenha{
+        position: relative;
+        bottom: 50px;
+        left: 34%;
+        cursor: pointer;
+       
+        }
+img.ocultasenha{
+            position: relative;
+            bottom: 50px;
+            left: 8.5%;
+            cursor: pointer;
+            
+            }
